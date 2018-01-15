@@ -11,21 +11,3 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('text', function(){
-    return view('anzeige');
-});
-
-
-Route::group(['middleware' => ['web']], function () {
-	Route::resource('rythmtype', 'RythmTypeController');
-});
-Route::group(['middleware' => ['web']], function () {
-	Route::resource('rythmtype', 'RythmTypeController');
-});
-Route::group(['middleware' => ['web']], function () {
-	Route::resource('lecture', 'LectureController');
-});
