@@ -168,8 +168,6 @@ return [
          * Package Service Providers...
          */
         Jadjoubran\LaravelAngular\Provider\LaravelServiceProvider::class,
-        Roland\Crud\CrudServiceProvider::class,
-        Collective\Html\HtmlServiceProvider::class,
 
         /*
          * Application Service Providers...

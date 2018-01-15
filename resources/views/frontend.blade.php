@@ -6,7 +6,5 @@
     <script href="{{ mix('js/app.js') }}"></script>
     <title>lecture table</title>
 </head>
-<body>
-
-</body>
+<body></body>
 </html>
